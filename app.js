@@ -1,4 +1,5 @@
-// import functions and grab DOM elements
+import { getCars } from './fetch-utils.js';
+getCars();
 
 // let state
 

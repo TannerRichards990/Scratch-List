@@ -24,3 +24,19 @@ Additional considerations:
   - What needs to live in a persistence layer?
 - Is there some state we need to initialize?
 - Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
+
+
+## Build Table: 5 rows, 5 Columns.
+-5 cars , 5 descriptors.
+Brand, Model, Color, Img, Description
+
+## Fetch Tables using (Fetch Utils) <script>HTML LINK</script>
+- fetch supabase key/URL
+-async to html
+
+
+## Building renderCarCard Function
+- in app.js import renderCarCard
+- renderCarDetail function for displaying single car
+- Build car card container hardcoded in HTML
+-in app.js append car card function into car card container.
