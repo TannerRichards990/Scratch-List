@@ -40,3 +40,6 @@ Brand, Model, Color, Img, Description
 - renderCarDetail function for displaying single car
 - Build car card container hardcoded in HTML
 -in app.js append car card function into car card container.
+
+## Details.js 
+-build html page for hardcode

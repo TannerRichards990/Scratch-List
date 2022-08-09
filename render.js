@@ -27,3 +27,4 @@ export function renderCarCard(car) {
     carEl.append(a);
     return carEl;
 }
+
