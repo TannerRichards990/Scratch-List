@@ -14,17 +14,26 @@ export function renderCarCard(car) {
     const modelP = document.createElement('p');
     modelP.textContent = car.model;
 
-    // const colorP = document.createElement('p');
-    // colorP.textContent = car.color;
-
-    // const yearSpan = document.createElement('span');
-    // yearSpan.textContent = car.year;
-
-    // const descriptionSpan = document.createElement('span');
-    // descriptionSpan.textContent = car.description;
+    
 
     a.append(img, brandP, modelP);
     carEl.append(a);
     return carEl;
 }
 
+export function renderCarDetail(car) {
+    const carDetailEl = document.createElement('div');
+
+    const colorP = document.createElement('p');
+    colorP.textContent = car.color;
+
+    const yearP = document.createElement('p');
+    yearP.textContent = car.year;
+
+    const descriptionP = document.createElement('p');
+    descriptionP.textContent = car.description;
+
+    carDetailEl.append(colorP, yearP, descriptionP);
+    return carDetailEl;
+
+}
