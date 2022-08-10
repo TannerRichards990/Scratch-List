@@ -4,12 +4,17 @@
     --footer-background: rgb(243, 242, 242);
 }
 
+
+
 body {
     height: 100vh;
     font-family: 'Rubik', san-serif;
     background: var(--background);
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(45deg, #f09c65 25%, #131314 25%, #131314 50%, #f09c65 50%, #f09c65 75%, #131314 75%, #131314 100%);
+background-size: 56.57px 56.57px;
+    
 }
 
 header {
@@ -32,4 +37,127 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+.car-detail-css {
+    margin: 20px;
+    padding: 20px;
+    width: 520px;
+    height: 220px;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    background-color:grey;
+}
+
+.home-link {
+    font-size: 2rem;
+    width: 200px;
+    text-align: center;
+    border: 3px solid black;
+    align-items: center;
+    margin: 20px;
+}
+
+#car-detail-container {
+background-color: black;
+    
+}
+
+#car-detail-container img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 13px 14px 26px 14px rgba(0,0,0,0.69);
+    margin: 30px;
+    padding: 30px;
+    width: 850px;
+    height: 500px;
+
+    
+}
+
+#car-detail-container p {
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    }
+
+
+
+.F8-Tributo {
+    background: rgb(251,7,7);
+background: linear-gradient(90deg, rgba(251,7,7,0.8925945378151261) 47%, rgba(25,25,25,1) 90%);
+}
+
+.F8-Tributo p   {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.P-911-Turbo {
+    background: rgb(232,232,232);
+background: linear-gradient(90deg, rgba(232,232,232,0.8925945378151261) 42%, rgba(25,25,25,1) 100%);
+
+}
+
+.P-911-Turbo p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.M3 {
+    background: rgb(0,245,18);
+background: linear-gradient(90deg, rgba(0,245,18,0.8925945378151261) 42%, rgba(25,25,25,1) 90%);
+}
+
+.M3 p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.C8-Z06 {
+    background: rgb(51,54,51);
+background: linear-gradient(90deg, rgba(51,54,51,0.8925945378151261) 44%, rgba(251,1,1,1) 96%);
+}
+
+.C8-Z06 p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.RS-6-Avant{
+    background: rgb(116,152,51);
+background: linear-gradient(90deg, rgba(116,152,51,0.9710259103641457) 45%, rgba(0,0,0,0.9178046218487395) 92%);
+}
+
+.RS-6-Avant p {
+    display: flex;
+    justify-content: center;
+    color: greenyellow;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.detail-body {
+    background-color: black;
+}
+
+a {
+    color: slateblue;
+    font-size: 2rem;
 }
