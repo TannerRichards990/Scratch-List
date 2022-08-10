@@ -4,7 +4,7 @@ import { renderCarCard } from './render.js';
 
 const carsContainerEl = document.getElementById('car-list-container');
 
-const homeButtonEl = document.getElementById('home-button');
+
 
 // let state
 async function loadCars() {
