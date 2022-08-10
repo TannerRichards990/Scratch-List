@@ -15,6 +15,10 @@ async function loadData() {
 }
 loadData();
 
-if (data === 1) {
-StyleSheet.background 
-}
+// function changeClass() {
+//     modelP.textContent = car.model;
+//     if (modelP === car.model) {
+//       modelP.classList.remove('default-class');
+//       modelP.classList.add(`${car.model}-class`);
+//     }
+//   }

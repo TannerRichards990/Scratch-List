@@ -23,10 +23,14 @@ export function renderCarCard(car) {
 
 export function renderCarDetail(car) {
     const carDetailEl = document.createElement('div');
-
+    carDetailEl.classList.add(`${car.model}`);
+    
     const img = document.createElement('img');
     img.src = `/assets/${car.Image}.png`;
 
+    const modelP = document.createElement('p');
+    modelP.textContent = car.model;
+    
 
     const colorP = document.createElement('p');
     colorP.textContent = car.color;
@@ -37,7 +41,7 @@ export function renderCarDetail(car) {
     const descriptionP = document.createElement('p');
     descriptionP.textContent = car.description;
 
-    carDetailEl.append(img, colorP, yearP, descriptionP);
+    carDetailEl.append(img, modelP, colorP, yearP, descriptionP);
     return carDetailEl;
 
 }
