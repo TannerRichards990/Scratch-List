@@ -24,6 +24,10 @@ export function renderCarCard(car) {
 export function renderCarDetail(car) {
     const carDetailEl = document.createElement('div');
 
+    const img = document.createElement('img');
+    img.src = `/assets/${car.Image}.png`;
+
+
     const colorP = document.createElement('p');
     colorP.textContent = car.color;
 
@@ -33,7 +37,7 @@ export function renderCarDetail(car) {
     const descriptionP = document.createElement('p');
     descriptionP.textContent = car.description;
 
-    carDetailEl.append(colorP, yearP, descriptionP);
+    carDetailEl.append(img, colorP, yearP, descriptionP);
     return carDetailEl;
 
 }

@@ -13,7 +13,7 @@ export async function getCars() {
 }
 getCars();
 export async function getCarById(id) {
-    const response = await client.from('cars_list').select({ id }).single();
+    const response = await client.from('cars_list').select('*').match({ id }).single();
     return response.data;
     
 }

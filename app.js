@@ -4,7 +4,7 @@ import { renderCarCard } from './render.js';
 
 const carsContainerEl = document.getElementById('car-list-container');
 
-
+const homeButtonEl = document.getElementById('home-button');
 
 // let state
 async function loadCars() {
@@ -17,7 +17,15 @@ async function loadCars() {
 }
 
 loadCars();
+
+
+
 // set event listeners 
+
+
+
+
+
   // get user input
   // use user input to update state 
   // update DOM to reflect the new state

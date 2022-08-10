@@ -11,5 +11,10 @@ async function loadData() {
     const carDetailEl = renderCarDetail(data);
     detailContainerEl.append(carDetailEl);
 
+
 }
 loadData();
+
+if (data === 1) {
+StyleSheet.background 
+}
